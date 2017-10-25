@@ -15,7 +15,9 @@ const defaultConf = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: 'dist/',
-    filename: 'build.js'
+    filename: 'build.js',
+    library: 'vuex-crud-store',
+    libraryTarget: 'umd'
   },
   devtool: 'source-map',
   module: {
