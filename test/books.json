@@ -1,0 +1,19 @@
+{
+  "booksCollection": [
+    {
+      "id": 1,
+      "title": "To Kill A Mockingbird",
+      "author": "John Doe"
+    },
+    {
+      "id": 2,
+      "title": "All Quiet On the Western Front",
+      "author": "Jane Dean"
+    }
+  ],
+  "newBook": {
+    "id": 4,
+    "title": "Book C",
+    "author": "Unknown"
+  }
+}
