@@ -1,6 +1,6 @@
 {
   "name": "vuex-crud-store",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vuex store to handle basic create, read, update, delete operations with server",
   "main": "dist/build.js",
   "directories": {
