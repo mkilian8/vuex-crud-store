@@ -97,6 +97,19 @@ Response
 
 
 ### API Reference
+Creates a collection store with a config module
+```
+createCollectionStore(configModule)
+
+configModule = {
+  state: { id_key: int },
+  getters: {
+    endpoint: function() { ... }
+  }
+}
+```
+
+Store actions
 ```
 store.dispatch('collection/create', { resource: Resource })
 store.dispatch('collection/read')
