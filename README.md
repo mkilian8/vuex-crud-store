@@ -56,15 +56,15 @@ export default {
 ```
 
 
-#### Endpoiunt format requirements
-`vuex-crud-store` requires the API to format responses as specified below
+#### Endpoint format requirements
+`vuex-crud-store` requires the API to format responses as specified below  
 POST `/collection`
 ```
 Request
 {Resource}
 
 Respone
-{Resource created}
+{Created resource}
 ```
 GET `/collection`
 ```
@@ -84,7 +84,7 @@ Request
 {Resource}
 
 Response
-{Resource updated}
+{Updated resource}
 ```
 DELETE `/collection/{id}`
 ```
